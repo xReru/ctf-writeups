@@ -1,3 +1,7 @@
+---
+icon: question
+---
+
 # whoami
 
 Hey there 👋 I’m 0xreru, a Computer Science student from the Philippines.
