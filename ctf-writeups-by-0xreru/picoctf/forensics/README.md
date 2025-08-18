@@ -1,2 +1,6 @@
+---
+icon: magnifying-glass
+---
+
 # Forensics
 

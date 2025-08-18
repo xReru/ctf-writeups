@@ -1,2 +1,6 @@
+---
+icon: rectangles-mixed
+---
+
 # Miscellaneous
 
