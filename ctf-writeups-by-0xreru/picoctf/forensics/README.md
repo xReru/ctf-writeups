@@ -1,5 +1,5 @@
 ---
-icon: magnifying-glass
+icon: fingerprint
 ---
 
 # Forensics

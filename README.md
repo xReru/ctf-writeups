@@ -1,2 +1,37 @@
-# Page
+---
+icon: book-open
+---
 
+# CTF Writeups by 0xreru
+
+<figure><img src=".gitbook/assets/ChatGPT Image Aug 19, 2025, 11_32_07 AM.png" alt=""><figcaption></figcaption></figure>
+
+Welcome to my digital dumpster of hacks, fails, and “wait… that actually worked?” moments.
+
+👾 Name’s **Oxreru** — Computer Science student, 🇵🇭 based, caffeine-dependent lifeform.\
+🔥 Proud member of **Team Pwnslaught** — we pwn you first, then laugh about it.
+
+***
+
+#### 🗂 Contents of this cursed repo
+
+* **picoCTF** — baby’s first hacks, except baby has `rm -rf` access.
+* **OverTheWire** — aka “Linux: Elden Ring Edition.”
+* **CryptoHack** — where math tries to kill me but I XOR back harder.
+* **Misc** — random hacks, cursed scripts, and notes I probably should not admit publicly.
+
+***
+
+#### 💡 Mission statement (kinda)
+
+To document my questionable methods, make future-me facepalm, and maybe help you grab a flag or two while laughing at my pain.
+
+Remember:
+
+> “It’s not a bug, it’s a **CTF feature™**.”
+
+Grab your 🍕, open Burp, and let’s get this bread (or flag).
+
+***
+
+⚠️ Warning: Side effects may include increased laziness, sudden urge to `strings` literally everything, and random `segfaults` in real life.

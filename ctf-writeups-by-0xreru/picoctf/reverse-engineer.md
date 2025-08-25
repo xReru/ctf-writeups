@@ -1,5 +1,5 @@
 ---
-icon: gear-complex-code
+icon: gear-code
 ---
 
 # Reverse Engineer

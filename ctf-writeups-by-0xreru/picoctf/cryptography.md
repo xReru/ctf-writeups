@@ -1,5 +1,5 @@
 ---
-icon: file-lock
+icon: binary-lock
 ---
 
 # Cryptography
