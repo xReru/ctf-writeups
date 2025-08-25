@@ -2,14 +2,14 @@
 icon: book-open
 ---
 
-# CTF Writeups by 0xreru
+# CTF Writeups
 
 <figure><img src=".gitbook/assets/ChatGPT Image Aug 19, 2025, 11_32_07 AM.png" alt=""><figcaption></figcaption></figure>
 
 Welcome to my digital dumpster of hacks, fails, and “wait… that actually worked?” moments.
 
 👾 Name’s **Oxreru** — Computer Science student, 🇵🇭 based, caffeine-dependent lifeform.\
-🔥 Proud member of **Team Pwnslaught** — we pwn you first, then laugh about it.
+🔥 Proud member of **Team LilPwny**
 
 ***
 
