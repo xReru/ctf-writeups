@@ -17,3 +17,4 @@
     * [BrunnerCTF 2025](ctf-writeups-by-0xreru/other-ctf-events/brunnerctf-2025/README.md)
       * [The Secret Brunsviger — Forensics](ctf-writeups-by-0xreru/other-ctf-events/brunnerctf-2025/the-secret-brunsviger-forensics.md)
       * [Othello Villains —  Pwn](ctf-writeups-by-0xreru/other-ctf-events/brunnerctf-2025/othello-villains-pwn.md)
+      * [Memory Loss — Forensics](ctf-writeups/other-ctf-events/brunnerctf-2025/memory-loss-forensics.md)
