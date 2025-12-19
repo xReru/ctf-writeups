@@ -12,6 +12,8 @@
       * [PIE TIME](ctf-writeups-by-0xreru/picoctf/binary-exploitation/pie-time.md)
     * [Cryptography](ctf-writeups-by-0xreru/picoctf/cryptography.md)
     * [General Skills](ctf-writeups-by-0xreru/picoctf/general-skills.md)
+  * [TryHackMe Labs](ctf-writeups/tryhackme-labs/README.md)
+    * [Basic Pentesting](ctf-writeups/tryhackme-labs/basic-pentesting.md)
   * [Other CTF Events](ctf-writeups-by-0xreru/other-ctf-events/README.md)
     * [GDG PUP SEEN 2025](ctf-writeups-by-0xreru/other-ctf-events/gdg-pup-seen-2025.md)
     * [BrunnerCTF 2025](ctf-writeups-by-0xreru/other-ctf-events/brunnerctf-2025/README.md)
