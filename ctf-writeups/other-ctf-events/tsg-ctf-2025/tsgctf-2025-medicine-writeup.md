@@ -83,16 +83,18 @@ The Doctor takes our flag, puts it through a ROT13 function, and then applies a 
 
 ### Chain of Thought & Breakthroughs
 
-**The "What If": Pure Math Attack**
+#### **The "What If": Pure Math Attack**
 
-My first instinct was to solve this mathematically. If I knew the encrypted bytes and the XOR constant, I could just work backward.
+My first instinct was to solve this mathematically(I really thought I can solve it with pure math bruhh). If I knew the encrypted bytes and the XOR constant, I could just work backward.
+
+When I started researching that's when I found out these:
 
 * The Contradiction: The binary uses a Dual-Stage check.
   * Stage 1: Decrypts code using `ROT13(Flag)`.
   * Stage 2: Later, it decrypts a different site using the `Original Flag`.
 * The Realization: Because the binary applies ROT13 _conditionally_ (only to letters) and involves 16-bit register overflows, the math became a black box. If I got a symbol or a number wrong, the whole chain broke.
 
-**The Breakthrough: Side-Channel Brute Force**
+#### **The Breakthrough: Side-Channel Brute Force**
 
 Imagine the binary is a long hallway with 32 locked doors. Behind each door is a "trap" (the `ud2` illegal instruction). If you step on a trap, the program crashes and you lose.
 
