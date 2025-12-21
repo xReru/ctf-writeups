@@ -8,7 +8,7 @@ Flag: `TSGCTF{51gn4l_h4ndl3r_r0t13_x0r}`
 
 ***
 
-#### Overview
+### Overview
 
 We are presented with an ELF 64-bit executable titled "medicine". The challenge description is brief but telling: _"I feel ILL..."_.&#x20;
 
@@ -24,7 +24,7 @@ Hints for beginners:
 
 ***
 
-#### Basic Reconnaissance
+### Basic Reconnaissance
 
 First, let's look at the binary protections.
 
@@ -42,7 +42,7 @@ When running the program normally, it asks for a flag and promptly tells us we a
 
 ***
 
-#### Static Analysis: Finding the "Doctor"
+### Static Analysis: Finding the "Doctor"
 
 I loaded the binary into Ghidra. Since symbols were stripped, I followed the `entry` function to find the real `main` (`FUN_00101479`).
 
@@ -81,7 +81,7 @@ The Doctor takes our flag, puts it through a ROT13 function, and then applies a 
 
 ***
 
-#### Chain of Thought & Breakthroughs
+### Chain of Thought & Breakthroughs
 
 **The "What If": Pure Math Attack**
 
@@ -101,7 +101,7 @@ However, the program gives you a "Doctor" (the Signal Handler). When you provide
 * If you give the WRONG character: The Doctor fumbles. He "fixes" the trap with garbage. You step forward, the trap is still active, and the program instantly dies (Segmentation Fault).
 * If you give the RIGHT character: The Doctor disarms the trap perfectly. You step forward safely, reach the _next_ door, and the process repeats.
 
-So.....
+#### Sooo.....
 
 I realized I didn't need to understand the math if I could measure the program's "heartbeat." \* A wrong character fixes the instruction into garbage $$ $\rightarrow$ $$ The program crashes or exits immediately.
 
@@ -111,7 +111,7 @@ By counting how many times the signal handler's XOR logic was executed, I could 
 
 ***
 
-#### Deep Dive: The GDB "Oracle"
+### Deep Dive: The GDB "Oracle"
 
 To automate this, I needed GDB to act as my observer. Here is a breakdown of the GDB commands used in the solution:
 
@@ -121,12 +121,12 @@ To automate this, I needed GDB to act as my observer. Here is a breakdown of the
 
 ***
 
-#### The Final Solution Script
+### The Final Solution Script
 
 With the help of an AI thought partner to refine the GDB-Python interaction, I arrived at this solution:\
 <sub><mark style="color:blue;">This Python script automates the brute-force by counting XOR hits for every possible character.<mark style="color:blue;"></sub>
 
-> <mark style="color:green;">I know this script is not optimal T^T and there are better solutions out there but this is the idea that I come up with....</mark>
+> <mark style="color:green;">I know this script is not optimal T^T and there are better solutions out there(I'm also a beginner) but this is the idea that I come up with....</mark>
 
 Python
 
