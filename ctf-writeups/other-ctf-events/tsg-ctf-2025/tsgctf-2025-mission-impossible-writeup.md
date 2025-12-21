@@ -2,7 +2,7 @@
 description: 'Author: xreru'
 ---
 
-# TSGCTF 2025 - Mission : Impossible Writeup
+# 🧩 TSGCTF 2025 - Mission : Impossible Writeup
 
 Flag: `TSGCTF{Th1S_fl4g_wiLL_s3lf-deSTrucT_in_5_s3c0nds}`
 
