@@ -214,4 +214,6 @@ print(f"\n[+] Flag Found: {flag}}}")
 * [GDB Manual: Signal Handling](https://www.google.com/search?q=https://sourceware.org/gdb/current/onlinedocs/gdb/Signals.html)
 * [Side-Channel Attacks](https://www.google.com/search?q=https://www.cs.tau.ac.il/~tromer/courses/cs14/side-channel-attacks.pdf)
 
-Flag: `TSGCTF{51gn4l_h4ndl3r_r0t13_x0r}`
+Flag: `TSGCTF{51gn4l_h4ndl3r_r0t13_x0r}` &#x20;
+
+If you have any questions feel free to dm me [xreru](https://app.gitbook.com/u/sV63NjWn0kbva4C066LUjfLD3y92 "mention") or in [linkedin](https://www.linkedin.com/in/reru/)

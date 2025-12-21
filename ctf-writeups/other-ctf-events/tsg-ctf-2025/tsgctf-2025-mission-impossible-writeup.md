@@ -155,3 +155,5 @@ System Message: `OK, here is the flag: TSGCTF{Th1S_fl4g_wiLL_s3lf-deSTrucT_in_5_
 * [SSB Modulation via Hilbert Transform](https://en.wikipedia.org/wiki/Single-sideband_modulation)
 
 Flag: `TSGCTF{Th1S_fl4g_wiLL_s3lf-deSTrucT_in_5_s3c0nds}`
+
+If you have any questions feel free to dm me [xreru](https://app.gitbook.com/u/sV63NjWn0kbva4C066LUjfLD3y92 "mention") or in [linkedin](https://www.linkedin.com/in/reru/)
