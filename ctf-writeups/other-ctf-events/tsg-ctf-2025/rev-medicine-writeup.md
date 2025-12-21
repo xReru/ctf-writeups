@@ -2,7 +2,7 @@
 description: 'Author: 0xreru'
 ---
 
-# 🧩 TSGCTF 2025 - medicine Writeup
+# 🧩 (REV) medicine Writeup
 
 Flag: `TSGCTF{51gn4l_h4ndl3r_r0t13_x0r}`
 

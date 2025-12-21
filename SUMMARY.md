@@ -21,5 +21,5 @@
       * [Othello Villains —  Pwn](ctf-writeups-by-0xreru/other-ctf-events/brunnerctf-2025/othello-villains-pwn.md)
       * [Memory Loss — Forensics](ctf-writeups/other-ctf-events/brunnerctf-2025/memory-loss-forensics.md)
     * [TSG CTF 2025](ctf-writeups/other-ctf-events/tsg-ctf-2025/README.md)
-      * [🧩 (MISC) TSGCTF 2025 - Mission : Impossible Writeup](ctf-writeups/other-ctf-events/tsg-ctf-2025/misc-tsgctf-2025-mission-impossible-writeup.md)
-      * [🧩 (REV) TSGCTF 2025 - medicine Writeup](ctf-writeups/other-ctf-events/tsg-ctf-2025/rev-tsgctf-2025-medicine-writeup.md)
+      * [🧩 (MISC) Mission : Impossible Writeup](ctf-writeups/other-ctf-events/tsg-ctf-2025/misc-mission-impossible-writeup.md)
+      * [🧩 (REV) medicine Writeup](ctf-writeups/other-ctf-events/tsg-ctf-2025/rev-medicine-writeup.md)
