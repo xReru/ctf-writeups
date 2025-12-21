@@ -8,13 +8,13 @@ Flag: `TSGCTF{Th1S_fl4g_wiLL_s3lf-deSTrucT_in_5_s3c0nds}`
 
 ***
 
-#### [#challenge-overview](tsgctf-2025-mission-impossible-writeup.md#challenge-overview "mention")
+#### Challenge Overview
 
 We are tasked with infiltrating a state-of-the-art CIA vault room. The room is protected by a suite of pressure, temperature, and audio-sensitive sensors. To interact with the terminal, we must provide a voice command. However, the catch is obvious: a standard voice command would trigger the audio sensors and alert the guards.
 
 ***
 
-#### [#initial-analysis](tsgctf-2025-mission-impossible-writeup.md#initial-analysis "mention")
+#### Initial Analysis
 
 **Understanding the Source Code**
 
