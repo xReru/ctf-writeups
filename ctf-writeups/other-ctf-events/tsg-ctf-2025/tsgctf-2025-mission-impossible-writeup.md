@@ -1,5 +1,5 @@
 ---
-description: 'Author: dai'
+description: 'Author: xreru'
 ---
 
 # TSGCTF 2025 - Mission : Impossible Writeup
@@ -8,13 +8,13 @@ Flag: `TSGCTF{Th1S_fl4g_wiLL_s3lf-deSTrucT_in_5_s3c0nds}`
 
 ***
 
-#### Challenge Overview
+### Challenge Overview
 
 We are tasked with infiltrating a state-of-the-art CIA vault room. The room is protected by a suite of pressure, temperature, and audio-sensitive sensors. To interact with the terminal, we must provide a voice command. However, the catch is obvious: a standard voice command would trigger the audio sensors and alert the guards.
 
 ***
 
-#### Initial Analysis
+### Initial Analysis
 
 **Understanding the Source Code**
 
@@ -58,7 +58,7 @@ Human speech primarily exists in the 300 Hz to 3,000 Hz range. The system detect
 
 ***
 
-#### Chain of Thought & Breakthroughs
+### Chain of Thought & Breakthroughs
 
 **The Challenge: Silent Speech**
 
@@ -74,7 +74,7 @@ The secret weapon is how `librosa.resample` behaves. If we place a signal at a h
 
 ***
 
-#### Deep Dive: Implementation
+### Deep Dive: Implementation
 
 We use Single Sideband (SSB) Modulation. This shifts the entire frequency spectrum of our voice command up by a "carrier" frequency without distorting the underlying linguistic structure.
 
@@ -130,7 +130,7 @@ sf.write('clean_stealth.wav', y_final, SR)
 print("[+] Created clean_stealth.wav")
 ```
 
-#### Result <a href="#result" id="result"></a>
+### Result <a href="#result" id="result"></a>
 
 Upon uploading `clean_stealth.wav`:
 
