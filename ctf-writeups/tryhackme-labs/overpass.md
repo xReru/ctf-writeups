@@ -14,7 +14,7 @@ What happens when a "military-grade" password manager becomes its own worst enem
 
 ***
 
-## **Phase 1: The Reconnaissance - Finding the Front Door**
+## 🔎**The Reconnaissance - Finding the Front Door**
 
 #### **Initial Enumeration**
 
@@ -51,7 +51,7 @@ html
 
 ***
 
-## **Phase 2: Cookie Manipulation - The Golden Ticket**
+## 🍪**Cookie Manipulation - The Golden Ticket**
 
 #### **The Authentication Mystery**
 
@@ -146,7 +146,7 @@ This simple cookie manipulation bypassed authentication entirely, demonstrating 
 
 ***
 
-## **Phase 3: Initial Access - SSH Shenanigans**
+## 🔐**Initial Access - SSH Shenanigans**
 
 **Gaining Foothold**
 
@@ -181,7 +181,7 @@ Bingo! Credentials for the "System" account. But what system?
 
 ***
 
-## **Phase 4: Privilege Escalation - The Cron Job Goldmine**
+## 🚀**Privilege Escalation - The Cron Job Goldmine**
 
 #### **Enumeration Reveals the Treasure**
 
@@ -218,7 +218,7 @@ The file is world-writable! We can redirect `overpass.thm` to our attacking mach
 
 ***
 
-## **Phase 5: The Attack - Weaponizing Cron**
+## ⚙️**Weaponizing Cron**
 
 #### **Setting the Trap**
 
@@ -261,7 +261,7 @@ cat /etc/hosts.new > /etc/hosts
 
 ***
 
-## **Phase 6: Root Access - The Final Payoff**
+## 👑 **Root Access - The Final Payoff**
 
 #### **The Shell Drops**
 
@@ -289,7 +289,7 @@ cat /root/root.txt
 
 ***
 
-## **Key Takeaways & Lessons Learned**
+## 📝**Key Takeaways & Lessons Learned**
 
 #### **Vulnerability Chain:**
 
@@ -313,7 +313,5 @@ cat /root/root.txt
 ### **Final Thoughts**
 
 This challenge beautifully demonstrates how security tools can become attack vectors when improperly implemented. From the ironic use of "military grade" encryption to the dangerously configured cron job, Overpass serves as a cautionary tale about security theater versus actual security.
-
-Remember: In cybersecurity, sometimes the locksmith's house has the weakest locks. Always validate your security assumptions and implement defense in depth!
 
 **Happy hacking! 🚩**— 0xreru
