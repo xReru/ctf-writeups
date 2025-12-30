@@ -14,7 +14,7 @@ What happens when a "military-grade" password manager becomes its own worst enem
 
 ***
 
-### **Phase 1: The Reconnaissance - Finding the Front Door**
+## **Phase 1: The Reconnaissance - Finding the Front Door**
 
 #### **Initial Enumeration**
 
@@ -146,9 +146,9 @@ This simple cookie manipulation bypassed authentication entirely, demonstrating 
 
 ***
 
-### **Phase 3: Initial Access - SSH Shenanigans**
+## **Phase 3: Initial Access - SSH Shenanigans**
 
-#### **Gaining Foothold**
+**Gaining Foothold**
 
 With the decrypted private key, SSH access is trivial:
 
@@ -181,7 +181,7 @@ Bingo! Credentials for the "System" account. But what system?
 
 ***
 
-### **Phase 4: Privilege Escalation - The Cron Job Goldmine**
+## **Phase 4: Privilege Escalation - The Cron Job Goldmine**
 
 #### **Enumeration Reveals the Treasure**
 
@@ -218,7 +218,7 @@ The file is world-writable! We can redirect `overpass.thm` to our attacking mach
 
 ***
 
-### **Phase 5: The Attack - Weaponizing Cron**
+## **Phase 5: The Attack - Weaponizing Cron**
 
 #### **Setting the Trap**
 
@@ -261,7 +261,7 @@ cat /etc/hosts.new > /etc/hosts
 
 ***
 
-### **Phase 6: Root Access - The Final Payoff**
+## **Phase 6: Root Access - The Final Payoff**
 
 #### **The Shell Drops**
 
@@ -289,7 +289,7 @@ cat /root/root.txt
 
 ***
 
-### **Key Takeaways & Lessons Learned**
+## **Key Takeaways & Lessons Learned**
 
 #### **Vulnerability Chain:**
 
