@@ -120,9 +120,9 @@ This time, instead of a redirect or access denied, we got **directory listing en
 
 #### **Treasure Discovered**
 
-Among the files in `/admin/`, we found a critical asset:
+Among the files in `/admin/`, we found a critical asset found in the admin page <br>
 
-* **`rsa.key`** - An encrypted RSA private key
+<figure><img src="../../.gitbook/assets/image (23).png" alt=""><figcaption></figcaption></figure>
 
 This was our golden ticket! The server's lax cookie validation allowed us to access what should have been a protected directory, revealing the encrypted private key that would eventually grant us SSH access.
 
