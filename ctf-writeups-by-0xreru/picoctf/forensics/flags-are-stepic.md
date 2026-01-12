@@ -23,7 +23,7 @@ First move: **Inspect Element + Network Tab.** I filtered for images and one cau
 * The file size was kinda chunky compared to the others.
 * Even worse… the “country” doesn’t exist .
 
-<figure><img src="../../../.gitbook/assets/image (1).png" alt=""><figcaption><p>Clearly, <strong>imposter flag among us</strong> 🚩.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (1) (1).png" alt=""><figcaption><p>Clearly, <strong>imposter flag among us</strong> 🚩.</p></figcaption></figure>
 
 ***
 
@@ -58,7 +58,7 @@ stepic -d -i upz.png
 
 Boom 💥 secret message extracted.&#x20;
 
-![](<../../../.gitbook/assets/image (2).png>)
+![](<../../../.gitbook/assets/image (2) (1).png>)
 
 **Flag captured!**
 

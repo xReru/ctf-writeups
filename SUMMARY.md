@@ -23,3 +23,4 @@
     * [The Secret Brunsviger — Forensics](ctf-writeups/brunnerctf-2025/the-secret-brunsviger-forensics.md)
     * [Othello Villains —  Pwn](ctf-writeups/brunnerctf-2025/othello-villains-pwn.md)
     * [Memory Loss — Forensics](ctf-writeups/brunnerctf-2025/memory-loss-forensics.md)
+  * [UofT CTF 2026 - Personal Blog](ctf-writeups/uoft-ctf-2026-personal-blog.md)
