@@ -182,6 +182,8 @@ Key takeaways:
 
 This challenge demonstrated how small inconsistencies — autosave vs save, magic links vs cookies — combine into powerful exploitation opportunities.
 
+Big shoutout to the author of the CTF Challenge and also to my team :)
+
 If you have any questions feel free to dm me [xreru](https://app.gitbook.com/u/sV63NjWn0kbva4C066LUjfLD3y92 "mention") or in [linkedin](https://www.linkedin.com/in/reru/)
 
 ***
