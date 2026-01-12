@@ -6,9 +6,9 @@ icon: question
 
 Hey there 👋 I’m **0xreru**, a Computer Science student from the Philippines.
 
-I like tinkering with things until they break — and sometimes even after they’re broken, just to see if they’ll break _again_.
+I like tinkering with things until they break
 
-I also enjoy making people lazy. If I can automate it, script it, or find a shortcut, you bet I will.
+I enjoy eliminating repetitive tasks — if it can be automated, scripted, or optimized, I’ll do it. I love solving small problems that make things more efficient in the long run.
 
 So grab your energy drink, stretch your brain, and join me as I document my victories, fails, and occasional moments of _“oh wait, that actually worked?”_
 

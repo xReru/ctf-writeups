@@ -2,6 +2,9 @@
 
 ## Personal Blog CTF Writeup: XSS to Session Hijacking
 
+Hi, I’m <mark style="color:green;">0xreru</mark> from team <mark style="color:red;">Lil:Pwny</mark> — a cybersecurity enthusiast student based in the Philippines.\
+One of the challenges that really stood out to me was **Personal Blog**, which combined a simple feature set with surprisingly deep security implications.
+
 ### 1. Challenge Overview
 
 The **Personal Blog** challenge revolves around a small blogging platform with user accounts, blog posts, and administrator moderation. The core objective: chain client-side behavior into **session compromise** of the admin account to recover the flag.
@@ -215,12 +218,10 @@ curl -b 'sid=<admin-session>' http://<challenge-host>/flag
 
 ***
 
-### 13. Study References
+### 12. Study References
 
-{% code lineNumbers="true" expandable="true" %}
-```
-https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/CORS
-https://www.intigriti.com/researchers/blog/hacking-tools/exploiting-cors-misconfiguration-vulnerabilities
-```
-{% endcode %}
+1. [https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/Guides/CORS)
+2. [https://www.intigriti.com/researchers/blog/hacking-tools/exploiting-cors-misconfiguration-vulnerabilities](https://www.intigriti.com/researchers/blog/hacking-tools/exploiting-cors-misconfiguration-vulnerabilities)
 
+<mark style="color:$success;">**Let’s connect!**</mark>\
+LinkedIn: [www.linkedin.com/in/reru](https://www.linkedin.com/in/reru)
