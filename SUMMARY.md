@@ -24,3 +24,7 @@
     * [Othello Villains —  Pwn](ctf-writeups/brunnerctf-2025/othello-villains-pwn.md)
     * [Memory Loss — Forensics](ctf-writeups/brunnerctf-2025/memory-loss-forensics.md)
   * [UofT CTF 2026 - Personal Blog](ctf-writeups/uoft-ctf-2026-personal-blog.md)
+  * [Swimmer OSINT CTF 2026](ctf-writeups/swimmer-osint-ctf-2026/README.md)
+    * [debeyohiru\_06\_hidden2](ctf-writeups/swimmer-osint-ctf-2026/debeyohiru_06_hidden2.md)
+    * [lilica\_03\_virtual\_world](ctf-writeups/swimmer-osint-ctf-2026/lilica_03_virtual_world.md)
+    * [rain\_05\_date](ctf-writeups/swimmer-osint-ctf-2026/rain_05_date.md)

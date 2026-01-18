@@ -16,11 +16,11 @@ Yo guyz im 0xreru from pwnslaught, today we’re diving into the _secret world o
 
 First things first, I peeked at the `traffic.pcap` and… wow 😵. It’s literally just gibberish characters because SSL/TLS encryption.
 
-<figure><img src="../../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
 
 Next, I checked out `keys.log` and saw:
 
-<figure><img src="../../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 Ahhh yes, the golden ticket 🎫. A quick Google search reveals: **this file lets Wireshark decrypt encrypted traffic**. It’s for debugging SSL/TLS but today it’s our BFF.
 
@@ -35,7 +35,7 @@ Here’s the magic:
 3. Paste your `keys.log` into the **(Pre)-Master-Secret log filename** field
 4. Click **Apply**
 
-<figure><img src="../../../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
 
 Boom 💥 – your encrypted pcap is now readable. You can see actual HTTP requests and responses instead of that encrypted mess.
 
