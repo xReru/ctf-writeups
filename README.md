@@ -16,8 +16,8 @@ Welcome to my digital dumpster of hacks, fails, and “wait… that actually wor
 #### 🗂 Contents of this cursed repo
 
 * **picoCTF** — baby’s first hacks, except baby has `rm -rf` access.
-* **OverTheWire** — aka “Linux: Elden Ring Edition.”
-* **CryptoHack** — where math tries to kill me but I XOR back harder.
+* **TryHackMe** — guided tours of extremely vulnerable networks (training wheels included).
+* **HackTheBox** — pure, unfiltered pain, rabbit holes, and the occasional root shell.
 * **Misc** — random hacks, cursed scripts, and notes I probably should not admit publicly.
 
 ***
